@@ -2,7 +2,7 @@
 
 Based on Muda's guide video online(https://www.youtube.com/watch?v=BUSrdUoedTo) and Arch Wiki Guide(https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF)
 
-## Step 1: Enabling IOMMU in he grubfile.
+## Step 1: Enabling IOMMU in the grubfile.
 
 Open up the grub file in nano:
 ```
