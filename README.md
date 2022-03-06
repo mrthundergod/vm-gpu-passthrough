@@ -16,9 +16,9 @@ Save the file and compile the grub file.
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-## Step 2: Check IOMMU grouping and isolate the GPU
+## Step 2: Check IOMMU grouping and isolate the GPU.
 
-Run `dmesg` in commad line tro check if IOMMU is enabled/working properly.
+Run `dmesg` in command line to check if IOMMU is enabled/working properly.
 ```
 dmesg | grep -i -e DMAR -e IOMMU
 ```
